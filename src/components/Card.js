@@ -6,7 +6,8 @@ import { Button, Paper, Grid } from '@mui/material'
 import styled from '@emotion/styled'
 
 const StyledCard = styled(Paper)`
-     ${({ theme }) => theme.comps.card}
+     ${({ theme }) => theme.comps.card};
+  visibility: hidden;
 `;
 
 
