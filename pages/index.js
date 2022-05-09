@@ -6,10 +6,8 @@ import Heading from '../src/components/Heading'
 
 export default function Home() {
   return (
-    <Grid>
-      <Heading />
-      <CustomizedDialogs/>
-      <Card />
-    </Grid>
+    <div>
+      Hey, there. Next js is running perfectly
+    </div>
   );
 }
